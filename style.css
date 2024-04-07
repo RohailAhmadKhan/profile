@@ -1,0 +1,243 @@
+.container {
+  margin: 0 auto;
+  padding: 45px;
+}
+body {
+  background-image: radial-gradient(circle, rgb(34, 0, 29), rgb(15, 3, 31));
+  font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+  background-color: rgb(15, 3, 31);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(164, 97, 241);
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgb(50, 16, 88), 0px -5px 10px rgb(50, 16, 88);
+}
+
+/* NAVBAR_FOR_ALL PAGES */
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: -53px;
+}
+.regularTab {
+  backdrop-filter: blur(10px);
+  background-color: rgba(24, 1, 30, 0.329);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.regularTab:hover {
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 3px 3px rgba(86, 43, 241, 0.466);
+  border-radius: 0px 0px 12px 12px;
+  border-bottom: 1px solid rgba(102, 10, 223, 0.493);
+}
+.activeTab {
+  backdrop-filter: blur(10px);
+  background-color: rgba(24, 1, 30, 0.473);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 0px 0px 12px 12px;
+  text-shadow: 2px 4px 7px white, -2px -4px 7px rgb(164, 97, 241);
+  border-bottom: 2px solid rgb(102, 10, 223);
+  box-shadow: 2px 4px 7px rgb(37, 6, 78);
+}
+/* HOME */
+.homeStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+* {
+  box-sizing: border-box;
+}
+.info {
+  width: 40%;
+  float: left;
+  padding: 15px;
+  text-align: left;
+  margin-left: 120px;
+}
+
+.pfp {
+  width: 60%;
+  float: left;
+  padding: 15px;
+  text-align: center;
+  margin-right: 120px;
+}
+
+.btnInfo {
+  border: none;
+  color: white;
+  background-color: rgb(6, 182, 144);
+  padding: 15px 38px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 25px 25px 25px 0px;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.btnInfo:hover {
+  font-size: 18px;
+  box-shadow: -5px -5px 10px rgba(158, 55, 199, 0.87);
+  transition: 0.7s ease;
+}
+.display-1 {
+  font-size: 50px;
+  color: white;
+  margin-top: -4px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -5px;
+}
+.info > p {
+  color: rgb(146, 142, 142);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pfp > img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 15px solid black;
+  border-color: rgb(30, 3, 61);
+  padding: 15px;
+  box-shadow: 0 0 20px 10px rgb(30, 0, 60);
+}
+.pfp > img:hover {
+  box-shadow: 0 0 30px 10px rgb(55, 1, 66);
+  padding: 0px;
+  transition: 0.7s ease-in-out;
+}
+
+/* ABOUT PAGE */
+
+.abt {
+  padding: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.abt > h1 {
+  color: rgb(255, 252, 252);
+  font-size: 50px;
+}
+.abt > p {
+  font-size: larger;
+  color: #a3a3a3;
+  margin: -10px 100px 0px 100px;
+}
+.abt > ul {
+  font-size: larger;
+  color: #a3a3a3;
+  margin: -10px 100px 0px 100px;
+}
+
+/* Education page */
+
+.edu {
+  padding: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.edu > h1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+.edu > p {
+  font-size: larger;
+  color: #a3a3a3;
+  margin: 0px 100px 0px 100px;
+}
+.edu > ul {
+  font-size: larger;
+  color: #a3a3a3;
+  margin: 0px 100px 0px 100px;
+}
+
+/* EXP PAGE  */
+
+.exp {
+  padding: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.exp > h1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+.exp > p {
+  font-size: larger;
+  color: #a3a3a3;
+  margin: 5px 100px 5px 100px;
+}
+.exp > ul {
+  font-size: larger;
+  color: #a3a3a3;
+  margin: 0px 100px 0px 100px;
+}
+
+/* Skill page  */
+
+.skill {
+  padding: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.skill > h1 {
+  color: rgb(255, 253, 253);
+  font-size: 50px;
+}
+.skill > h2 {
+  font-size: 30px;
+  color: #fcfcfc;
+  margin: 15px 100px 5px 100px;
+}
+.skill > ul {
+  font-size: larger;
+  color: #a3a3a3;
+  margin: 20px 100px 0px 200px;
+}
+.skill > ul > li {
+  margin-top: 5px;
+}
+/* Contact page  */
+
+.contact {
+  padding: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.contact > h1 {
+  color: rgb(255, 252, 252);
+  font-size: 50px;
+}
+.contact > h2 {
+  font-size: 30px;
+  color: #a3a3a3;
+  margin: 10px 100px 0px 80px;
+}
+.contact > ul {
+  font-size: larger;
+  color: #a3a3a3;
+  margin: 20px 100px 0px 230px;
+}
+.contact ul > li > a {
+  text-decoration: none;
+  color: #a3a3a3;
+  margin: -10px 100px 0px 100px;
+}
+.contact ul > li > a:hover {
+  text-shadow: 2px 2px 7px rgb(228, 226, 231), -2px -2px 7px rgb(80, 45, 88);
+}
