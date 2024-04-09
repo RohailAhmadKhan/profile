@@ -2,13 +2,16 @@
   margin: 0 auto;
   padding: 45px;
 }
+
 body {
   background-image: radial-gradient(circle, rgb(34, 0, 29), rgb(15, 3, 31));
   font-family: Arial, Helvetica, sans-serif;
 }
+
 ::-webkit-scrollbar {
   background-color: rgb(15, 3, 31);
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: rgb(164, 97, 241);
   border-radius: 30px;
@@ -22,6 +25,7 @@ nav {
   align-content: center;
   margin-top: -53px;
 }
+
 .regularTab {
   backdrop-filter: blur(10px);
   background-color: rgba(24, 1, 30, 0.329);
@@ -32,12 +36,14 @@ nav {
   text-decoration: none;
   font-size: 18px;
 }
+
 .regularTab:hover {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(70px);
   box-shadow: 1px 3px 3px rgba(86, 43, 241, 0.466);
   border-radius: 0px 0px 12px 12px;
   border-bottom: 1px solid rgba(102, 10, 223, 0.493);
 }
+
 .activeTab {
   backdrop-filter: blur(10px);
   background-color: rgba(24, 1, 30, 0.473);
@@ -52,6 +58,7 @@ nav {
   border-bottom: 2px solid rgb(102, 10, 223);
   box-shadow: 2px 4px 7px rgb(37, 6, 78);
 }
+
 /* HOME */
 .homeStyle {
   display: flex;
@@ -59,9 +66,16 @@ nav {
   align-items: center;
   margin-top: 10%;
 }
+
 * {
   box-sizing: border-box;
 }
+
+ul li {
+  list-style: circle;
+
+}
+
 .info {
   width: 40%;
   float: left;
@@ -91,11 +105,13 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
 .btnInfo:hover {
   font-size: 18px;
   box-shadow: -5px -5px 10px rgba(158, 55, 199, 0.87);
   transition: 0.7s ease;
 }
+
 .display-1 {
   font-size: 50px;
   color: white;
@@ -103,11 +119,13 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: -5px;
 }
-.info > p {
+
+.info>p {
   color: rgb(146, 142, 142);
   font-family: Arial, Helvetica, sans-serif;
 }
-.pfp > img {
+
+.pfp>img {
   width: 320px;
   height: 320px;
   border-radius: 50%;
@@ -116,7 +134,8 @@ nav {
   padding: 15px;
   box-shadow: 0 0 20px 10px rgb(30, 0, 60);
 }
-.pfp > img:hover {
+
+.pfp>img:hover {
   box-shadow: 0 0 30px 10px rgb(55, 1, 66);
   padding: 0px;
   transition: 0.7s ease-in-out;
@@ -129,16 +148,19 @@ nav {
   margin-left: 120px;
   margin-right: 120px;
 }
-.abt > h1 {
+
+.abt>h1 {
   color: rgb(255, 252, 252);
   font-size: 50px;
 }
-.abt > p {
+
+.abt>p {
   font-size: larger;
   color: #a3a3a3;
   margin: -10px 100px 0px 100px;
 }
-.abt > ul {
+
+.abt>ul {
   font-size: larger;
   color: #a3a3a3;
   margin: -10px 100px 0px 100px;
@@ -151,16 +173,19 @@ nav {
   margin-left: 120px;
   margin-right: 120px;
 }
-.edu > h1 {
+
+.edu>h1 {
   color: rgb(255, 255, 255);
   font-size: 50px;
 }
-.edu > p {
+
+.edu>p {
   font-size: larger;
   color: #a3a3a3;
   margin: 0px 100px 0px 100px;
 }
-.edu > ul {
+
+.edu>ul {
   font-size: larger;
   color: #a3a3a3;
   margin: 0px 100px 0px 100px;
@@ -173,16 +198,19 @@ nav {
   margin-left: 120px;
   margin-right: 120px;
 }
-.exp > h1 {
+
+.exp>h1 {
   color: rgb(255, 255, 255);
   font-size: 50px;
 }
-.exp > p {
+
+.exp>p {
   font-size: larger;
   color: #a3a3a3;
   margin: 5px 100px 5px 100px;
 }
-.exp > ul {
+
+.exp>ul {
   font-size: larger;
   color: #a3a3a3;
   margin: 0px 100px 0px 100px;
@@ -195,23 +223,28 @@ nav {
   margin-left: 120px;
   margin-right: 120px;
 }
-.skill > h1 {
+
+.skill>h1 {
   color: rgb(255, 253, 253);
   font-size: 50px;
 }
-.skill > h2 {
+
+.skill>h2 {
   font-size: 30px;
   color: #fcfcfc;
   margin: 15px 100px 5px 100px;
 }
-.skill > ul {
+
+.skill>ul {
   font-size: larger;
   color: #a3a3a3;
   margin: 20px 100px 0px 200px;
 }
-.skill > ul > li {
+
+.skill>ul>li {
   margin-top: 5px;
 }
+
 /* Contact page  */
 
 .contact {
@@ -219,25 +252,103 @@ nav {
   margin-left: 120px;
   margin-right: 120px;
 }
-.contact > h1 {
+
+.contact>h1 {
   color: rgb(255, 252, 252);
   font-size: 50px;
 }
-.contact > h2 {
+
+.contact>h2 {
   font-size: 30px;
   color: #a3a3a3;
   margin: 10px 100px 0px 80px;
 }
-.contact > ul {
+
+.contact>ul {
   font-size: larger;
   color: #a3a3a3;
   margin: 20px 100px 0px 230px;
 }
-.contact ul > li > a {
+
+.contact ul>li>a {
   text-decoration: none;
   color: #a3a3a3;
   margin: -10px 100px 0px 100px;
 }
-.contact ul > li > a:hover {
+
+.contact ul>li>a:hover {
   text-shadow: 2px 2px 7px rgb(228, 226, 231), -2px -2px 7px rgb(80, 45, 88);
+}
+
+
+/* responsive work  */
+
+@media only screen and (max-width: 1150px) {
+
+  .edu>h1,
+  .skill>h1,
+  .exp>h1,
+  .contact>h1,
+  .abt>h1,
+  .display-1 {
+    font-size: 36px;
+  }
+
+  .abt,
+  .edu,
+  .exp,
+  .contact,
+  .skill {
+    margin-left: 60px;
+    padding: 10px;
+  }
+
+  .contact>ul {
+    font-size: larger;
+    color: #a3a3a3;
+    margin: 20px 100px 0px 130px;
+  }
+
+  .contact ul>li>a {
+    text-decoration: none;
+    color: #a3a3a3;
+    margin: -10px 100px 0px 50px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1150px) {
+
+  .edu>h1,
+  .skill>h1,
+  .exp>h1,
+  .contact>h1,
+  .abt>h1,
+  .display-1 {
+    font-size: 36px;
+  }
+
+  .abt,
+  .edu,
+  .exp,
+  .contact,
+  .skill {
+    margin-left: 60px;
+    padding: 10px;
+  }
+
+  .contact>ul {
+    font-size: larger;
+    color: #a3a3a3;
+    margin: 20px 100px 0px 130px;
+  }
+
+  .contact ul>li>a {
+    text-decoration: none;
+    color: #a3a3a3;
+    margin: -10px 100px 0px 50px;
+  }
+
+
 }
